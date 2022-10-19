@@ -25,7 +25,6 @@ public class Client {
             out.println(command);
 
             String serverResponse = input.readLine();
-            //JOptionPane.showMessageDialog(null, serverResponse);
             System.out.println("Server says " + serverResponse);
         }
 
